@@ -186,7 +186,7 @@ public class Change131 implements Initializable {
 
         //thông báo thêm thành công
         Stage alert1 = new Stage();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("../Main/alert.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../../../../resources/com/project1/Main/alert.fxml"));
         Parent pr = loader.load();
         Alert controller = loader.getController();
         controller.setTextAlert("Thêm nhân khẩu thành công");

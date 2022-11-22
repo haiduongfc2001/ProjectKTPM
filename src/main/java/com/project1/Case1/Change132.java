@@ -7,7 +7,6 @@ import javafx.animation.PauseTransition;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
@@ -182,7 +181,7 @@ public class Change132 implements Initializable {
 
         //thông báo thành công, đáng ra phải viết 1 hàm mà lười quá
         Stage alert1 = new Stage();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("../Main/alert.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../../../../resources/com/project1/Main/alert.fxml"));
         Parent pr = loader.load();
         Alert controller = loader.getController();
         controller.setTextAlert("Ghi chú chuyến đi thành công!");
@@ -215,7 +214,7 @@ public class Change132 implements Initializable {
 
         //thông báo
         Stage alert1 = new Stage();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("../Main/alert.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../../../../resources/com/project1/Main/alert.fxml"));
         Parent pr = loader.load();
         Alert controller = loader.getController();
         controller.setTextAlert("Xin chia buồn!");

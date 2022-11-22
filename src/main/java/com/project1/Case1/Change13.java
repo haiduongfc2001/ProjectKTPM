@@ -1,7 +1,6 @@
 package com.project1.Case1;
 
 import com.project1.Main.Menu;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;

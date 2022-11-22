@@ -68,7 +68,7 @@ public class Menu implements Initializable {
         /**
          * nạp file design, set controler vào contentRoot và truyền Menu trước vì FXMLLoader tĩnh
          */
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("../Case1/change1.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../../../../resources/com/project1/Case1/change1.fxml"));
         Parent pr = loader.load();
         Change1 controller = loader.getController();
         controller.setMenu(this);

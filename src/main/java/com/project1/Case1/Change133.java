@@ -220,7 +220,7 @@ public class Change133 implements Initializable {
 
         //đưa thông báo tùy biến trả về
         Stage alert1 = new Stage();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("../Main/alert.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../../../../resources/com/project1/Main/alert.fxml"));
         Parent pr = loader.load();
         Alert controller = loader.getController();
         if (n == 0)
